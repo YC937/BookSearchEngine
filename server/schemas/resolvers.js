@@ -3,7 +3,9 @@ const { AuthenticationError } = require('../utils/auth');
 
 const resolvers = {
     Query: {
-        me: async ()
+        me: async (
+
+        )
 
     },
 
@@ -13,15 +15,17 @@ const resolvers = {
         },
 
         addUser: async (parent, args) => {
+
         },
 
         saveBook: async (parent, { bookData }, context) => {
+
         },
 
         deleteBook: async (parent, { bookId }, context) => {
 
+        }
     }
-}
 };
 
 module.exports = resolvers;
